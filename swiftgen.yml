@@ -1,0 +1,22 @@
+
+xcassets:
+  inputs:
+    - TestShop/SupportingFiles/Images.xcassets
+    - TestShop/SupportingFiles/Colors.xcassets
+  outputs:
+    - templateName: swift5
+      output: TestShop/Resources/SwiftGen/Assets.swift
+
+fonts:
+  inputs: TestShop/SupportingFiles/Fonts
+  outputs:
+    templateName: swift5
+    output: TestShop/Resources/SwiftGen/Fonts.swift
+
+strings:
+  inputs: TestShop/SupportingFiles/LocalizableStrings/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: TestShop/Resources/SwiftGen/Strings.swift
+      
+ 
